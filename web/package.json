@@ -1,0 +1,15 @@
+{
+  "name": "chip8-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "chip8_wasm_bg.wasm",
+    "chip8_wasm.js",
+    "chip8_wasm.d.ts"
+  ],
+  "main": "chip8_wasm.js",
+  "types": "chip8_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
