@@ -1,8 +1,10 @@
 # Chip-8 WASM Emulator
 
-This is a minimal one-file Chip-8 emulator written in Rust, ported to WebAssembly. It is based on the [sdl2 minimal emulator](https://github.com/matejsmycka/chip8-min-emulator-rs).
+Visit deploy here: https://matejsmycka.github.io/chip8-wasmulator/
 
-JavaScript is used to load the WebAssembly module and handle the user interface. Rust is only emulating the Chip-8 machine and returning the screen buffer which is rendered on a canvas.
+This minimal one-file Chip-8 emulator is written in Rust and ported to WebAssembly. It is based on the [sdl2 minimal emulator](https://github.com/matejsmycka/chip8-min-emulator-rs).
+
+JavaScript is used to load the WebAssembly module and handle the user interface. Rust only emulates the Chip-8 machine and returns the screen buffer rendered on a canvas.
 
 ![screenshot](https://i.imgur.com/GxrIKBm.png)
 
